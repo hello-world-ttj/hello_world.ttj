@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "flowbite-react";
 import Avatar from "./img/avatar.jpg";
-import { Link } from "react-router-dom";
 import { IconButton } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook'
 import TwitterIcon from '@mui/icons-material/Twitter'
@@ -65,13 +64,13 @@ function AboutMe() {
               </span>
             </button>
           </a>
-          <Link to="/project">
+          <a href="https://www.linkedin.com/in/tijo-t-joseph/" target="_blank" rel="noopener noreferrer">
             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
               <span className="w-[150px] relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Projects
+                Hire me
               </span>
             </button>
-          </Link>
+            </a>
         </div>
         <p className="font-normal text-gray-700 dark:text-gray-400 leading-8 mt-4">
                   I'm Tijo, A Developer from India.
