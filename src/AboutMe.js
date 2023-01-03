@@ -12,7 +12,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 function AboutMe() {
   return (
     <div className="md:flex content-center items-center">
-      <div className="lg:w-1/2 py-[100px] bg-emerald-700 dark:bg-emerald-200">
+      <div className="lg:w-1/2 py-[100px] bg-lime-400 dark:bg-lime-700">
         <Card className="h-[326px] w-[300px] mx-auto shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-gray-200 duration-200 sm:h-[526px] sm:w-[375px]">
           <div className="flex flex-col items-center">
             <img
@@ -23,7 +23,7 @@ function AboutMe() {
             <h5 className="text-l font-medium text-gray-900 dark:text-white sm:text-xl">
               TIJO T JOSEPH
             </h5>
-            <hr class="my-2 w-10 h-1 bg-emerald-700 rounded border-0 dark:bg-emerald-200 sm:w-48"></hr>
+            <hr className="my-2 w-10 h-1 bg-lime-400 rounded border-0 dark:bg-lime-700 sm:w-48"></hr>
             <span className="text-s text-gray-500 dark:text-gray-400 sm:text-l">
               DEVELOPER
             </span>
