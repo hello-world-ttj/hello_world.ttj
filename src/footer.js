@@ -20,6 +20,7 @@ function footer() {
             <p>Email</p>
              <a href="mailto:">tijotjoseph@duck.com</a>
           </div>
+          <div className="flex flex-row justify-between sm:gap-4">
           <Footer.Icon
             className="hover:text-blue-600 dark:text-gray-400 hover:text-blue-600"
             href="https://www.facebook.com/tijojoseph.sony/"
@@ -50,6 +51,7 @@ function footer() {
             href="https://wa.me/918281977675"
             icon={WhatsAppIcon}
           />
+          </div>
         </div>
       </div>
     </Footer>

@@ -4,13 +4,13 @@ import PreviewIcon from '@mui/icons-material/Preview';
 import Data from "./Data";
 function Projects() {
   return (
-    <div className="flex flex-col sm:flex-row justify-around flex-wrap m-6 p-6 gap-8">
+    <div className="flex flex-col sm:flex-row justify-around flex-wrap m-6 p-6 gap-8 ">
       {Data.map((data) => {
         return (
-          <div className="max-w-sm" key={data.id}>
+          <div className="max-w-xs animate__animated animate__fadeInUpBig" key={data.id}>
             <Card imgSrc={data.img}>
               <div className="flex flex-row justify-between">
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {data.title}
                 </h5>
                 {data.link && (

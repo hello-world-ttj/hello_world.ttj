@@ -3,7 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <div className="flex flex-col sm:flex-row text-center text-gray-700 dark:text-gray-400 py-6 sm:h-[80vh] sm:pt-20">
-      <div className="basis-1/3 leading-[40px]">
+      <div className="basis-1/3 leading-[40px] animate__animated animate__bounceInDown">
         <h2 className="text-xl text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-full mx-4">Languages & Libraries</h2>
         <hr className="my-2 w-16 h-1 bg-lime-400 rounded border-0 dark:bg-lime-700 sm:w-[80%] mx-auto"></hr>
         <h3 className="text-l">HTML</h3>
@@ -16,7 +16,7 @@ function Skills() {
         <h3 className="text-l">C#</h3>
         <h3 className="text-l">.Net</h3>
       </div>
-      <div className="basis-1/3 leading-[40px]">
+      <div className="basis-1/3 leading-[40px] animate__animated animate__bounceInDown animate__slow">
         <h2 className="text-xl text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-full mx-4">DataBase & Applications</h2>
         <hr className="my-2 w-16 h-1 bg-lime-400 rounded border-0 dark:bg-lime-700 sm:w-[80%] mx-auto"></hr>
         <h3 className="text-l">MongoDB</h3>
@@ -30,7 +30,7 @@ function Skills() {
         <h3 className="text-l">Word</h3>
         <h3 className="text-l">Power Point</h3>
       </div>
-      <div className="basis-1/3 leading-[40px]">
+      <div className="basis-1/3 leading-[40px] animate__animated animate__bounceInDown animate__slower">
         <h2 className="text-xl text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-full mx-4">Platforms & OS</h2>
         <hr className="my-2 w-16 h-1 bg-lime-400 rounded border-0 dark:bg-lime-700 sm:w-[80%] mx-auto"></hr>
         <h3 className="text-l">GitHub</h3>

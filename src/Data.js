@@ -20,7 +20,7 @@ let Data = [
         title: "Memes Generator",
         img: "images/Meme.jpeg",
         lang: "React",
-        des: "We can create meme through this web app",
+        des: "Create meme with text",
         link: "https://hello-world-ttj-meme-generator.netlify.app/"
     },
     {

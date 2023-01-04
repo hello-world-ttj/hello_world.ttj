@@ -2,9 +2,10 @@ import React from 'react'
 import { DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
 import { NavLink } from 'react-router-dom';
 import Logo from './img/Logo.png';
+import 'animate.css';
 function NavBar() {
   return (  
-    <Navbar fluid={true} rounded={true} className="pt-4">
+    <Navbar fluid={true} rounded={true} className="pt-4 animate__animated animate__fadeInDown">
   <Navbar.Brand className='cursor-pointer'>
     <img
       src={Logo}

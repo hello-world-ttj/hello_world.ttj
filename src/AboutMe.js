@@ -12,7 +12,7 @@ function AboutMe() {
   return (
     <div className="md:flex content-center items-center">
       <div className="lg:w-1/2 py-[100px] bg-lime-400 dark:bg-lime-700">
-        <Card className="h-[326px] w-[300px] mx-auto shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-gray-200 duration-200 sm:h-[526px] sm:w-[375px]">
+        <Card className="h-[326px] w-[300px] mx-auto shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-gray-200 duration-200 sm:h-[526px] sm:w-[375px] animate__animated animate__zoomIn">
           <div className="flex flex-col items-center">
             <img
               className="mb-3 h-[130px] w-fit rounded-full shadow-lg sm:h-[230px]"
@@ -49,7 +49,7 @@ function AboutMe() {
           </div>
         </Card>
       </div>
-      <div className="lg:w-1/2 md:pl-[200px] text-center sm:text-left pt-10 sm:pt-0">
+      <div className="lg:w-1/2 md:pl-[200px] text-center sm:text-left pt-10 sm:pt-0 animate__animated animate__lightSpeedInRight animate__slow">
         <h5 className="text-[4vw] font-bold tracking-tight text-gray-900 dark:text-white">
           Hello World
         </h5>

@@ -3,7 +3,7 @@ import { Timeline } from "flowbite-react";
 import SchoolIcon from "@mui/icons-material/School";
 function Education() {
   return (
-    <div className="sm:h-[75vh]">
+    <div className="sm:h-[75vh] animate__animated animate__slideInLeft">
       <Timeline className="m-8">
         <Timeline.Item>
           <Timeline.Point icon={SchoolIcon} />
