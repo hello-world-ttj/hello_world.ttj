@@ -11,10 +11,9 @@ function Skills() {
         <h3 className="text-l">JavaScript</h3>
         <h3 className="text-l">React Js</h3>
         <h3 className="text-l">Node Js</h3>
-        <h3 className="text-l">C</h3>
-        <h3 className="text-l">C++</h3>
-        <h3 className="text-l">C#</h3>
-        <h3 className="text-l">.Net</h3>
+        <h3 className="text-l">Express Js</h3>
+        <h3 className="text-l">Angular</h3>
+        <h3 className="text-l">TypeScript</h3>
       </div>
       <div className="basis-1/3 leading-[40px] animate__animated animate__bounceInDown animate__slow">
         <h2 className="text-xl text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-full mx-4">DataBase & Applications</h2>
@@ -22,6 +21,7 @@ function Skills() {
         <h3 className="text-l">MongoDB</h3>
         <h3 className="text-l">MySQL</h3>
         <h3 className="text-l">Git</h3>
+        <h3 className="text-l">Firebase</h3>
         <h3 className="text-l">Vs Code</h3>
         <h3 className="text-l">Visual Studio</h3>
         <h3 className="text-l">Photoshop </h3>
