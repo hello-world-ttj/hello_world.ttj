@@ -17,7 +17,7 @@ function AboutMe() {
             <img
               className="mb-3 h-[130px] w-fit rounded-full shadow-lg sm:h-[230px]"
               src={Avatar}
-              alt="Avatar"
+              alt="Tijo T Joseph - Web Developer"
             />
             <h5 className="text-l font-medium text-gray-900 dark:text-white sm:text-xl">
               TIJO T JOSEPH
@@ -28,22 +28,22 @@ function AboutMe() {
             </span>
             <div>
             <IconButton>
-                  <a href="https://github.com/hello-world-ttj"><GitHubIcon className="hover:text-zinc-800 dark:text-white dark:hover:text-zinc-400"/></a>
+                  <a href="https://github.com/hello-world-ttj" title="Explore Tijo T Joseph's Github"><GitHubIcon className="hover:text-zinc-800 dark:text-white dark:hover:text-zinc-400"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://www.instagram.com/hello_world.ttj/"><InstagramIcon className="hover:text-pink-700 dark:text-white dark:hover:text-pink-700"/></a>
+                  <a href="https://www.instagram.com/hello_world.ttj/" title="Explore Tijo T Joseph's Instagram"><InstagramIcon className="hover:text-pink-700 dark:text-white dark:hover:text-pink-700"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://wa.me/918281977675"><WhatsAppIcon className="hover:text-green-500 dark:text-white dark:hover:text-green-500"/></a>
+                  <a href="https://wa.me/918281977675" title="Explore Tijo T Joseph's Whatsapp"><WhatsAppIcon className="hover:text-green-500 dark:text-white dark:hover:text-green-500"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://www.facebook.com/tijojoseph.sony/"><FacebookIcon className="hover:text-blue-600 dark:text-white dark:hover:text-blue-600"/></a>
+                  <a href="https://www.facebook.com/tijojoseph.sony/" title="Explore Tijo T Joseph's Facebook><FacebookIcon className="hover:text-blue-600 dark:text-white dark:hover:text-blue-600"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://twitter.com/TijoTJoseph1"><TwitterIcon className="hover:text-sky-600 dark:text-white dark:hover:text-sky-600"/></a>
+                  <a href="https://twitter.com/TijoTJoseph1" title="Explore Tijo T Joseph's Twitter><TwitterIcon className="hover:text-sky-600 dark:text-white dark:hover:text-sky-600"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://www.linkedin.com/in/tijo-t-joseph/"><LinkedInIcon className="hover:text-sky-500 dark:text-white dark:hover:text-sky-500"/></a>
+                  <a href="https://www.linkedin.com/in/tijo-t-joseph/" title="Explore Tijo T Joseph's LinkedIn><LinkedInIcon className="hover:text-sky-500 dark:text-white dark:hover:text-sky-500"/></a>
                 </IconButton>
             </div>
           </div>
