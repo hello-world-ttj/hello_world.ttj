@@ -37,13 +37,13 @@ function AboutMe() {
                   <a href="https://wa.me/918281977675" title="Explore Tijo T Joseph's Whatsapp"><WhatsAppIcon className="hover:text-green-500 dark:text-white dark:hover:text-green-500"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://www.facebook.com/tijojoseph.sony/" title="Explore Tijo T Joseph's Facebook><FacebookIcon className="hover:text-blue-600 dark:text-white dark:hover:text-blue-600"/></a>
+                  <a href="https://www.facebook.com/tijojoseph.sony/" title="Explore Tijo T Joseph's Facebook"><FacebookIcon className="hover:text-blue-600 dark:text-white dark:hover:text-blue-600"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://twitter.com/TijoTJoseph1" title="Explore Tijo T Joseph's Twitter><TwitterIcon className="hover:text-sky-600 dark:text-white dark:hover:text-sky-600"/></a>
+                  <a href="https://twitter.com/TijoTJoseph1" title="Explore Tijo T Joseph's Twitter"><TwitterIcon className="hover:text-sky-600 dark:text-white dark:hover:text-sky-600"/></a>
                 </IconButton>
                 <IconButton>
-                  <a href="https://www.linkedin.com/in/tijo-t-joseph/" title="Explore Tijo T Joseph's LinkedIn><LinkedInIcon className="hover:text-sky-500 dark:text-white dark:hover:text-sky-500"/></a>
+                  <a href="https://www.linkedin.com/in/tijo-t-joseph/" title="Explore Tijo T Joseph's LinkedIn"><LinkedInIcon className="hover:text-sky-500 dark:text-white dark:hover:text-sky-500"/></a>
                 </IconButton>
             </div>
           </div>
